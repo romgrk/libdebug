@@ -1,4 +1,4 @@
-# libdebugging
+# libdebug
 
 Exposes a single `void breakpoint()` function that triggers an `int 3` and `SIGTRAP` on linux.
 
