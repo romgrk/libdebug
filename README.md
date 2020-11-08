@@ -8,7 +8,7 @@ Useful for debugging scripting languages that can call a library, eg vimscript:
 echom getpid()
 call getchar() " Allows vim/neovim to wait while you `attach pid` gdb here.
 
-echom "Before breakpoin"
+echom "Before breakpoint"
 call libcall('...path/to/libdebug.so', 'breakpoint', [])
-echom "After breakpoin"
+echom "After breakpoint"
 ```
